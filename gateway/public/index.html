@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ODR — استرجاع بيانات أوراكل | تحميل</title>
+<meta name="description" content="ODR: تشخيص التلف واسترجاع الجداول من ملفات أوراكل .dbf بدون أوراكل — ويندوز 10/11.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230e1e40'/><text x='32' y='42' font-size='28' font-weight='700' text-anchor='middle' fill='%23f5c542' font-family='Segoe UI,Arial'>ODR</text></svg>">
+<style>
+:root{--navy:#0e1e40;--navy2:#182e5c;--gold:#d6a42e;--gold2:#f5c542;--ink:#1c2230;--muted:#687490;--bg:#f3f5fa}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Segoe UI",Tahoma,"Noto Naskh Arabic",sans-serif;background:radial-gradient(1200px 600px at 80% -10%,#1b3a7a 0%,var(--navy) 45%,#08122a 100%);color:#e8edf7;min-height:100vh}
+header{display:flex;align-items:center;justify-content:space-between;padding:22px 6vw}
+.brand{display:flex;align-items:center;gap:14px}
+.logo{width:48px;height:48px;border-radius:12px;background:var(--navy2);display:grid;place-items:center;font-weight:800;color:var(--gold2);letter-spacing:.5px;border:1px solid #2d4a8a}
+.brand small{display:block;color:#aab8d8;font-size:12px}
+.pill{background:#ffffff14;border:1px solid #ffffff22;padding:8px 14px;border-radius:999px;font-size:13px;color:#dfe6f5}
+main{max-width:1080px;margin:0 auto;padding:20px 6vw 60px}
+.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center;margin-top:20px}
+h1{font-size:clamp(28px,4.2vw,46px);line-height:1.25;margin:0 0 14px;color:#fff}
+h1 b{color:var(--gold2)}
+.lead{font-size:17px;color:#c6d1ea;line-height:1.8;margin:0 0 26px}
+.cta{display:inline-flex;align-items:center;gap:12px;background:linear-gradient(135deg,var(--gold2),var(--gold));color:#161616;font-weight:800;font-size:19px;padding:16px 28px;border-radius:14px;text-decoration:none;box-shadow:0 14px 40px #d6a42e44;transition:transform .15s}
+.cta:hover{transform:translateY(-2px)}
+.meta{margin-top:14px;color:#aab8d8;font-size:13.5px;line-height:1.9}
+.meta code{background:#ffffff12;padding:2px 8px;border-radius:6px;color:#e8edf7;direction:ltr;display:inline-block}
+.card{background:#ffffff0f;border:1px solid #ffffff1f;border-radius:18px;padding:22px;backdrop-filter:blur(6px)}
+.card h3{margin:0 0 12px;color:var(--gold2);font-size:16px}
+.steps{margin:0;padding:0;list-style:none;counter-reset:s}
+.steps li{position:relative;padding:10px 44px 10px 0;color:#dfe6f5;line-height:1.7;border-bottom:1px dashed #ffffff1a}
+.steps li:last-child{border:none}
+.steps li::before{counter-increment:s;content:counter(s,arabic-indic);position:absolute;right:0;top:10px;width:30px;height:30px;border-radius:50%;background:var(--gold2);color:#161616;font-weight:800;display:grid;place-items:center}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:44px}
+.f{background:#ffffff0a;border:1px solid #ffffff18;border-radius:16px;padding:18px}
+.f .i{font-size:28px}
+.f h4{margin:8px 0 6px;color:#fff;font-size:16px}
+.f p{margin:0;color:#b8c4e0;font-size:14px;line-height:1.7}
+.promise{margin-top:40px;padding:18px 22px;border-radius:14px;background:#0b1a3a;border:1px solid #2d4a8a;color:#cfd9f0;line-height:1.9;font-size:14.5px}
+footer{text-align:center;color:#8c9ac0;font-size:13px;padding:30px 6vw;border-top:1px solid #ffffff14}
+footer a{color:var(--gold2);text-decoration:none}
+@media (max-width:860px){.hero{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand"><div class="logo">ODR</div><div><strong>ODR</strong><small>Oracle Datafile Recovery</small></div></div>
+  <div class="pill">ويندوز 10 / 11 — 64 بت</div>
+</header>
+<main>
+  <section class="hero">
+    <div>
+      <h1>استرجاع بيانات أوراكل من ملفات <b>.dbf</b> التالفة — بدون أوراكل</h1>
+      <p class="lead">شخّص ماذا حدث للملف (فدية؟ قرص؟ انقطاع كهرباء؟)، اعرف ما الذي يمكن إنقاذه بدرجة 0–100، واستخرج الجداول إلى طبقات <strong>موثَّق / مستنتَج / مرفوض</strong>. للقراءة فقط — لا يلمس ملفاتك أبداً.</p>
+      <a class="cta" href="/download" id="dl">⬇️ تحميل ODR للويندوز</a>
+      <div class="meta">
+        الإصدار <code id="ver">…</code> · الحجم <code id="size">…</code> · ويندوز 10/11 · موقَّع رقمياً · بلا صلاحيات مدير<br>
+        <span style="font-size:12px;color:#8c9ac0">للفنيين — رقم التحقق من سلامة الملف (SHA-256): <code id="sha" style="font-size:11px">…</code></span>
+      </div>
+    </div>
+    <aside class="card">
+      <h3>ثلاث خطوات للتجربة الأولى</h3>
+      <ol class="steps">
+        <li>حمّل وثبّت (إن ظهر تحذير SmartScreen: <em>More info ← Run anyway</em>).</li>
+        <li>افتح «ODR» واضغط <strong>«تجربة بملفات العرض»</strong> — قاعدة أوراكل حقيقية جاهزة داخل البرنامج.</li>
+        <li>جرّب <strong>التشخيص</strong> على أي ملف .dbf عندك: اسحبه وأفلته في الصفحة الرئيسية.</li>
+      </ol>
+    </aside>
+  </section>
+
+  <section class="grid">
+    <div class="f"><div class="i">🩺</div><h4>التشخيص</h4><p>يحكم على كل كتلة، يشرح السبب بالدليل والأرقام، ويعطي درجة قابلية الاسترجاع وتقرير HTML عربي للعميل.</p></div>
+    <div class="f"><div class="i">📦</div><h4>الاسترجاع</h4><p>يقرأ القاموس من SYSTEM ويستخرج الجداول. كل صف إما موثَّق أو مستنتَج أو مرفوض بسبب — لا تخمين.</p></div>
+    <div class="f"><div class="i">⚖️</div><h4>الفرز</h4><p>مجلد كامل بعد حادثة ← جدول مرتّب من الأسوأ إلى الأفضل خلال دقائق.</p></div>
+    <div class="f"><div class="i">🔍</div><h4>البصمة</h4><p>ضاع ملف SYSTEM؟ اقتراح أسماء الجداول من قاعدة سليمة لنفس المنتج.</p></div>
+  </section>
+
+  <div class="promise">🔒 <strong>وعد القراءة فقط:</strong> البرنامج لا يكتب في ملفاتك ويثبت ذلك ببصمة SHA-256 قبل وبعد كل عملية. يعمل بلا أوراكل وبلا إنترنت. لكل صفحة زر ℹ️ يشرحها بالعربي.</div>
+</main>
+<footer>تطوير المهندس معين العباسي · الدعم عبر واتساب: <a href="https://wa.me/967770941666">+967 770 941 666</a> · © 2026</footer>
+<script>
+fetch('/version').then(r=>r.json()).then(m=>{
+  if(!m||m.error) return;
+  document.getElementById('ver').textContent = m.version || '';
+  if(m.size) document.getElementById('size').textContent = (m.size/1048576).toFixed(1)+' MB';
+  if(m.sha256) document.getElementById('sha').textContent = m.sha256;
+}).catch(()=>{});
+</script>
+</body>
+</html>

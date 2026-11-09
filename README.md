@@ -13,7 +13,9 @@
 **الكود المصدري، كود التفعيل، مفاتيح التوقيع، والأدوات — كلها في مستودع خاص.** لا يوجد هنا أي سرّ: `codeSha256` بصمة فقط.
 
 ## التحميل
-آخر إصدار: https://github.com/moain2028/odr-apps/releases/latest
+**رابط التحميل العام (أرسله للزبائن):** https://4c963f49-7f97-497d-ae4a-0ba8a209171a.vip.gensparksite.com
+
+التنزيل المباشر: https://4c963f49-7f97-497d-ae4a-0ba8a209171a.vip.gensparksite.com/download · آخر Release: https://github.com/moain2028/odr-apps/releases/latest · مصدر البوابة: [`gateway/`](gateway/)
 
 ## كيف يعمل القفل
 - التطبيق يقرأ `odr/license.json` عند التشغيل ثم كل 10 دقائق (GitHub API ثم raw كاحتياط، بلا كاش).
