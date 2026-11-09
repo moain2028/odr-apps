@@ -1,12 +1,12 @@
 {
-  "product": "odr",
-  "url": "https://github.com/moain2028/odr-apps/releases/latest/download/ODR-Setup.exe",
-  "version": "0.6.1",
+  "updatedAt": "2026-11-09T08:08:34Z",
   "minSupportedBuild": 0,
-  "sha256": "b60fcb0fc8a41f672dfc0fc0ddf74b76600d397a9ca49331cf16f75fa2791304",
-  "size": 35624376,
+  "sha256": "59eba79b3c242b27ec515ed3f46f92aec04cdda52bea47c431e73e16d0e9fd04",
   "notes": "",
+  "url": "https://github.com/moain2028/odr-apps/releases/latest/download/ODR-Setup.exe",
+  "product": "odr",
+  "size": 35646560,
+  "version": "0.7.0",
   "schema": 1,
-  "build": 61,
-  "updatedAt": "2026-11-09T07:36:09Z"
+  "build": 70
 }
