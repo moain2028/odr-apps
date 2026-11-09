@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "product": "odr",
+  "version": "0.6.0-alpha",
+  "build": 60,
+  "minSupportedBuild": 0,
+  "url": "https://github.com/moain2028/odr-apps/releases/latest/download/ODR-Setup.exe",
+  "sha256": "",
+  "size": 0,
+  "notes": "",
+  "updatedAt": "2026-11-09T07:20:39Z"
+}
