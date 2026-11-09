@@ -1,12 +1,12 @@
 {
-  "schema": 1,
-  "product": "odr",
+  "_help_ar": "التحكم عن بُعد في برنامج ODR: active=true يعمل، active=false يُقفل ويطلب كود التفعيل المكتوب في code. غيّر الحقلين من هنا ثم Commit.",
   "active": true,
-  "codeSha256": "e5b9be9537e6ca60bbc37b1b45dc2e10f417644dd026f541066cb02d79ad1957",
+  "code": "ODR-95YP-ARKA-J33H",
   "message": "",
   "blockedDevices": [],
   "blockedMessage": "",
   "offlineGraceDays": 0,
   "contact": "+967770941666",
-  "updatedAt": "2026-11-09T07:27:42Z"
+  "schema": 1,
+  "product": "odr"
 }
